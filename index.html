@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body> 
+    <header>
+        <div class="header-text">
+            To Trung Tin's Profile
+        </div>
+        <ul class="header-menu">
+            <li><a href="#home"><b>Home</b></a></li> 
+            <li><a href="#about-me"><b>About me</b></a></li> 
+            <li><a href="#work"><b>Work</b></a></li> 
+            <li><a href="#experience"><b>Experience</b></a><li> 
+            <li><a href="#contact"><b>Contact</b></a></li>
+        </ul>
+    </header>
+    <div class="show">
+        <div class="slide-show">
+            <div class="list-images">
+                <img src="list-images/image 1.png"alt="img">
+                <img src="list-images/image 2.png"alt="img">
+                <img src="list-images/image 3.png"alt="img">
+                <img src="list-images/image 4.png"alt="img">
+            </div>
+        </div>
+    </div>
+    <div class="textline">ABOUT ME :</div>
+    <div class="aboutme"id="about-me">
+        <div class="container">
+            <div class="text1">Hi ! My name is <span>Trung Tin To</span><br></div>
+            <div class="text2"><b>I'm a student at <span>An Giang University</span>, majoring in Information Technology . <br> I have a passion for web design, web development, software development, and graphic design, as well as anything related to the IT field.  I am eager to learn, sociable, and have a good sense of humor. I enjoy exploring new ideas and finding solutions to problems. Additionally, I possess strong communication skills and can work effectively in a team.</b></div>
+        </div>
+        <div class="imageavatar">
+                <img src="Avatar.png" alt="avatar" />
+        </div>
+    </div>
+    </div>
+    <div class="textline">WORK :</div>
+    <div class="work"id="work">
+        <div class="box"><i class="fas fa-code icons"></i>Full-stack Developer</div>
+        <div class="box"><i class="fas fa-paint-roller icons"></i>Product, UX/UI Designer</div>
+        <div class="box"><i class="fas fa-gears icons"></i>Engineering Technician</div>
+    </div>
+    <div class="textline" >Experience :</div>
+    <div class="experience"id="experience">
+        <div class="experience-lenght">
+            <div class="box">    
+                <div class="text-large">Student</div>
+                <div class="text-small">At Vietnam National University HCMC An Giang University<br>2022-2026, 4 Years, Long Xuyen, An Giang, Vietnam<br>Knowledge of information technology (IT)<br>Teamwork, Communication, Creative thinking and many other skills</div>
+            </div>
+        </div>
+        <div class="experience-right">
+            <div class="box">
+                <div class="text-large">Technical Staff </div>
+                <div class="text-small">At To The Lan Commercial Production Company · Full-time<br>2011-2022, 11 Years, Tri Ton district, An Giang, Vietnam<br>Graphic Design, Electrical Engineering and many other skills.</div>
+            </div>
+            <div class="box">
+                <div class="text-large">Sales Associat</div>
+                <div class="text-small">At SAI Phone Store · Part-time<br>2020-2022, 2 Years, Tri Ton district, An Giang, Vietnam<br>Sales và Technical Support</div>
+            </div>
+        </div>
+    </div>
+    <div class="textline-end"id="contact">Contact :</div>
+    <div class="contact" >
+        <div class="contact-info">
+            <p class="email">Email: <a href="mailto:khongbietcode1@gmail.com">khongbietcode1@gmail.com</a></p>
+            <p class="phone">Phone: <a href="tel:0901046544">+89 901046544</a></p>
+            <p>Address: Long Xuyen City, An Giang, Viet Nam</p>
+        </div>
+        <form action="submit_form.php" method="post" class="contact-form">
+            <label for="name">Your name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Your email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/your-profile" target="_blank" class="linkedin">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://www.facebook.com/your-profile" target="_blank" class="facebook">
+                    <i class="fab fa-facebook"></i> Facebook
+                </a>
+                <a href="https://github.com/your-profile" target="_blank" class="github">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </form>
+    </div>
+    <script src="profile.js"></script>
+</body>
+</html>

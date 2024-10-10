@@ -1,0 +1,284 @@
+body{
+    background-color: rgba(0, 0, 0, 0.932);
+}
+header{
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+header .header-text{
+    width:30%;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: x-large;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header ul.header-menu{
+    display: flex;
+    list-style: none;
+}
+header ul.header-menu>li{
+    padding: 15px 20px;
+}
+header .header-menu a{
+    text-decoration: none;
+    color: aliceblue;
+}
+header .header-menu a:hover{
+    background-color: azure;
+    color: black;
+    padding: 30px 20px;
+}
+.show{
+    margin-top: 20px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.slide-show{
+    height: 400px;
+    width: 1200px;
+    overflow: hidden;
+}
+
+
+.list-images{
+    display: flex;
+    transition: 0.5s;
+}
+.textline{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+}
+.aboutme{
+    box-shadow: 0 4px 20px rgba(255, 251, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 20px;
+    display: flex;
+    gap: 10px;
+    border: 3px solid #fbff03; 
+    border-radius: 10px;
+    height: 500px;
+}
+.container{
+    display: block;     
+    align-items: center;
+    text-align: center;
+    width: 60%;
+}
+.container .text1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+.container .text1 span{
+    color: rgb(255, 0, 200);
+    text-shadow: 2px 3px 5px rgba(227, 3, 235, 0.767);
+}
+.container .text2 span{
+    color: rgb(238, 255, 0);
+}
+
+.container .text2 {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.imageavatar{
+    flex-direction: row;
+    justify-content: center;
+    display: flex; 
+    width: 40%;
+}
+.imageavatar img{
+    margin-top: 50px;
+    width: 60%;
+    height: auto; 
+}
+.work {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    text-transform: uppercase; 
+}
+.work .box {
+    font-size: 50px;
+    color: aliceblue;
+    margin: 15px;
+    flex: 1;
+    border: 3px solid #ffffffd0; 
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.work .box:hover {
+    background-color: azure;
+    color: black;
+    box-shadow: 0 4px 20px rgba(241, 241, 241, 0.808);
+}
+.work .box .icons {
+    margin: 20px;
+    display: block;
+}
+
+.experience {
+    display: flex;
+    align-items: stretch;
+}
+.experience-right {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+}
+.experience-lenght {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.box {
+    border: 5px solid #ffffff;
+    padding: 60px;
+    margin: 10px;
+    text-align: center;
+    flex: 1;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: aliceblue;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex-direction: column;
+}
+.experience .box:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgb(255, 238, 0); 
+    border-color: #fbff00;
+}
+.text-large {
+    font-size: 40px; 
+}
+
+.text-small {
+    margin-top: 10px;
+    font-size: 15px; 
+    color: #d3d3d3d8; 
+}
+.textline-end{
+    margin-top: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+}
+.contact {
+    text-align: center;
+    color: aliceblue;
+    background-size: cover;
+    background-position: center; 
+    padding: 40px;
+    border-radius: 10px; 
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 300px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.contact-form button {
+
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #00c3ff;
+    color: rgb(255, 255, 255);
+}
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.5); /* Nền nút */
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.linkedin:hover {
+    background-color: #0077b5;
+}
+
+.facebook:hover {
+    background-color: #3b5998;
+}
+
+.github:hover {
+    background-color: #333;
+}.email a {
+    color: #ffcc00; 
+}
+
+.phone a {
+    color: #ffcc00; 
+}
+
+.email a:hover,
+.phone a:hover {
+    color: #ffffff;
+}
